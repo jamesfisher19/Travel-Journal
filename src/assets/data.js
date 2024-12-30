@@ -1,8 +1,15 @@
+import eiffel from './eiffel.png';
+import statue from './statue.png';
+import sagrada from './sagrada.png';
+import ben from './ben.png';
+import alban from './alban.png';
+import lincoln from './lincoln.png';
+
 export default [
     {
         id: 1,
         img: {
-            src: 'src/assets/eiffel.png',
+            src: eiffel,
             alt: "Eiffel Tower"
         },
         title: "Eiffel Tower",
@@ -14,7 +21,7 @@ export default [
     {
         id: 2,
         img: {
-            src: 'src/assets/statue.png',
+            src: statue,
             alt: "Statue of Liberty"
         },
         title: "Statue of Liberty",
@@ -26,7 +33,7 @@ export default [
     {
         id: 3,
         img: {
-            src: 'src/assets/sagrada.png',
+            src: sagrada,
             alt: "Sagrada Familia"
         },
         title: "Sagrada Familia",
@@ -38,7 +45,7 @@ export default [
     {
         id: 4,
         img: {
-            src: 'src/assets/ben.png',
+            src: ben,
             alt: "Big Ben"
         },
         title: "Big Ben",
@@ -50,7 +57,7 @@ export default [
     {
         id: 5,
         img: {
-            src: 'src/assets/alban.png',
+            src: alban,
             alt: "Monte Albán"
         },
         title: "Monte Albán",
@@ -62,7 +69,7 @@ export default [
     {
         id: 6,
         img: {
-            src: 'src/assets/lincoln.png',
+            src: lincoln,
             alt: "Lincoln Memorial"
         },
         title: "Lincoln Memorial",
