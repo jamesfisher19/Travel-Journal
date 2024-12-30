@@ -5,7 +5,7 @@ export default function Entry(props) {
     return(
         <article className="journal-entry">
             <div className="main-img-container">
-                <img className="main-img" src={props.entry.img?.src} alt={props.entry.img?.alt} />
+                <img className="main-img" src={props.entry.img.src} alt={props.entry.img.alt} />
             </div>
             
             <div className="info-container">
