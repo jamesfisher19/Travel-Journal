@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from './Components/Header'
+import Header from './components/Header'
 import Entry from './components/Entry'
 import eiffel from './assets/eiffel.png'
 import statue from './assets/statue.png'
